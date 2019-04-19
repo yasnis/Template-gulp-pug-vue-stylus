@@ -137,4 +137,4 @@ gulp.task('watch', function () {
   }
 });
 
-gulp.task('default', ['browser-sync', 'pug', 'vue', 'styl', 'watch']);
+gulp.task('default', ['vue', 'styl', 'pug', 'browser-sync', 'watch']);
